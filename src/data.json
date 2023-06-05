@@ -1,0 +1,7 @@
+﻿[{ "name": "hammer",      "pic": "hammer_medium.jpg",      "size": "medium", "department": "tools", "price": 12.50},
+ { "name": "hammer",      "pic": "hammer.jpg",             "size": "medium", "department": "tools", "price": 12.50},
+ { "name": "hammer",      "pic": "hammer_large.jpg",       "size": "large",  "department": "tools", "price": 18.50},
+ { "name": "screwdriver", "pic": "screwdriver_small.jpg",  "size": "small",  "department": "tools", "price": 3},
+ { "name": "screwdriver", "pic": "screwdriver_medium.jpg", "size": "medium", "department": "tools", "price": 4},
+ { "name": "screwdriver", "pic": "screwdriver_large.jpg", "size": "large", "department": "tools", "price": 4},
+ { "name": "screwdriver set", "pic": "screwdriver_set.jpg", "size": "set",   "department": "tools", "price": 23.45} ]
