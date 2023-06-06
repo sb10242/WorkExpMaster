@@ -1,4 +1,4 @@
-# This project is the seed project for Small Group Work Experience at Kingfisher
+# Small Group Work Experience - Seed Project
 
 ## Introduction
 
@@ -52,7 +52,9 @@ Launches the test runner in the interactive watch mode.  The tests will automati
 Builds the app for production to the `build` folder.  It correctly bundles React in production mode and optimizes the build for the best performance.
 The build is minified and the filenames include the hashes. Your app is ready to be deployed!
 
+## Get Started
 
+Switch to the [Wiki](https://github.com/KfWorkExp/WorkExpMaster/wiki) for the rest of the documentation and all the tasks in the project.
 
 ## Acknowledgements
 
