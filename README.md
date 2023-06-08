@@ -13,9 +13,9 @@ During their week students are supported by experienced engineers, who help them
 
 The following software needs to be installed on your laptop:
 
-[Visual Studio Code](https://code.visualstudio.com/) - Code Editor/Compiler
-[Node](https://nodejs.org/en)
-[Git](https://git-scm.com/)
+- [Visual Studio Code](https://code.visualstudio.com/) - Code Editor/Compiler
+- [Node](https://nodejs.org/en)
+- [Git](https://git-scm.com/)
 
 You will also need an internet browser such as Chrome.
 
@@ -38,18 +38,21 @@ You will also need an internet browser such as Chrome.
    The url in the browser is [http://localhost:3000](http://localhost:3000)
 ### Step 3 - Run the automated tests.
 
-1) Open a new termina by going to Terminal -> New Terminal.
+1) Open a new terminal by going to Terminal -> New Terminal.
 2) In the terminal window type 'cd <path>' where path is the path to the top level folder you just opened (you can copy it from Windows Explorer)
 3) Type 'npm test' to run the tests.  Hopefully they all pass!
 
 ## Node commands
 ### `npm start`  
 Runs the app in the development mode.  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Right click and select 'inspect' to open the debugging windows.  
+You can print to the debug console using 'console.log(<"Message")>) in your javascript code.
 The page will reload when you make changes.  You may also see any lint errors in the console.
 ### `npm test`
 Launches the test runner in the interactive watch mode.  The tests will automatically run whenever code changes are saved
 ### 'npm run test_cov' 
 Launches the test runner and runs the tests once, showing the coverage of the unit tests.
+In widnows exporer navigate to your tep level folder and then coverage\lcov-report and open index.html in a browser to view the pretty version of the report.
 ### `npm run build`
 Builds the app for production to the `build` folder.  It correctly bundles React in production mode and optimizes the build for the best performance.
 The build is minified and the filenames include the hashes. Your app is ready to be deployed!
@@ -60,4 +63,4 @@ Switch to the [Wiki](https://github.com/KfWorkExp/WorkExpMaster/wiki) for the re
 
 ## Acknowledgements
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with the [Create React App](https://github.com/facebook/create-react-app) seed project.
