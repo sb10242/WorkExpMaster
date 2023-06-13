@@ -14,8 +14,8 @@ During their week students are supported by experienced engineers, who help them
 The following software needs to be installed on your laptop:
 
 - [Visual Studio Code](https://code.visualstudio.com/) - Code Editor/Compiler
-- [Node](https://nodejs.org/en)
-- [Git](https://git-scm.com/)
+- [Node](https://nodejs.org/en) - command line runner & package installer for javascript/react
+- [Git](https://git-scm.com/) - Scource code management.
 
 You will also need an internet browser such as Chrome.
 
@@ -50,9 +50,9 @@ You can print to the debug console using 'console.log(<"Message")>) in your java
 The page will reload when you make changes.  You may also see any lint errors in the console.
 ### `npm test`
 Launches the test runner in the interactive watch mode.  The tests will automatically run whenever code changes are saved
-### 'npm run test_cov' 
+### `npm run test_cov` 
 Launches the test runner and runs the tests once, showing the coverage of the unit tests.
-In widnows exporer navigate to your tep level folder and then coverage\lcov-report and open index.html in a browser to view the pretty version of the report.
+In windows explorer navigate to your tep level folder and then coverage\lcov-report and open index.html in a browser to view the pretty version of the report.
 ### `npm run build`
 Builds the app for production to the `build` folder.  It correctly bundles React in production mode and optimizes the build for the best performance.
 The build is minified and the filenames include the hashes. Your app is ready to be deployed!

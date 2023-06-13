@@ -17,6 +17,5 @@ test('renders header text', () => {
   checkElement("Size: medium", "P");
   checkElement("Department: tools", "P");
   checkElement("Proce: 12.5", "P"); 
-  
 
 });
