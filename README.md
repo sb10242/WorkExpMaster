@@ -50,7 +50,7 @@ You can print to the debug console using 'console.log(<"Message")>) in your java
 The page will reload when you make changes.  You may also see any lint errors in the console.
 ### `npm test`
 Launches the test runner in the interactive watch mode.  The tests will automatically run whenever code changes are saved
-### 'npm run test_cov' 
+### `npm run test_cov` 
 Launches the test runner and runs the tests once, showing the coverage of the unit tests.
 In widnows exporer navigate to your tep level folder and then coverage\lcov-report and open index.html in a browser to view the pretty version of the report.
 ### `npm run build`
