@@ -5,9 +5,9 @@
 This project is the seed project for Small Group Work Experience.  
 It contains all of the information required to setup the student's laptop, the starting code (which is intentionally buggy!) and the bugs and user stories that they will work through during their week.
 
-The purpose of the exercise is to give the student a supported experience of what it would be like to work on one of our development teams.  They must implement bugs and stories, with unit tests and them demo to an engineer.  
+The purpose of the exercise is to give the student a supported experience of what it would be like to work on one of our development teams.  They must implement bug fixes and stories, with unit tests and them demo to an engineer.  
 
-During their week students are supported by experienced engineers, who help them to learn the coding skills required.  We do no expect all students to complete all user stories, but as some may come with existing experience we include more work than they need.
+During their week students are supported by experienced engineers, who help them to learn the coding skills required.  We do not expect all students to complete all user stories, but as some may come with existing experience we include more work than they need.
 
 ## Initial setup
 
@@ -25,7 +25,12 @@ You will also need an internet browser such as Chrome.
 2) Go to [GitHub](https://github.com/) and create yourself an account (don't forget to verify your email address).
 3) Go to our seed repository and create a copy in your own account by clicking the 'fork' button.
 4) In your new repo  click the green 'Code' button, and copy the url on the https tab.
-5) In windows open a command prompt and type 'git clone <url>' where the url is the one you copied in 4.
+5) In windows open a command prompt, 
+      a) Create a 'code' folder: mkdir code
+      b) Navigate to it: cd code
+      c) Copy the code to your laptop: git clone <url>  (where the url is the one you copied in 4).
+
+Note that 'forking' only copies the code and not the Wiki with the user stories etc in.  You will need to refer to the original url for these.
 
 ### Step 2 - Open in VS Code and run up the code.
 
@@ -34,13 +39,15 @@ You will also need an internet browser such as Chrome.
 3) This opens up the source code in VS Code.
 4) Next go to Terminal -> New Terminal.
 5) In the terminal window type 'cd <path>' where path is the path to the top level folder you just opened (you can copy it from Windows Explorer)
-6) Type 'npm start' and press return.  The code compiles and runs up a browser with the application running in it.  Feel free to play.
+6) Type 'npm install' and press return.  This installs all the dependancy modules of the code.  It may take some time!
+7) Type 'npm start' and press return.  The code compiles and runs up a browser with the application running in it.  Feel free to play (you can always revert to the original version if you break it).
    The url in the browser is [http://localhost:3000](http://localhost:3000)
+
 ### Step 3 - Run the automated tests.
 
 1) Open a new terminal by going to Terminal -> New Terminal.
 2) In the terminal window type 'cd <path>' where path is the path to the top level folder you just opened (you can copy it from Windows Explorer)
-3) Type 'npm test' to run the tests.  Hopefully they all pass!
+3) Type 'npm test' to run the tests.  Hopefully they all pass!  See the node commands section about running the tests with the coverage turned on.
 
 ## Node commands
 ### `npm start`  
