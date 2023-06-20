@@ -49,6 +49,20 @@ Note that 'forking' only copies the code and not the Wiki with the user stories 
 2) In the terminal window type 'cd <path>' where path is the path to the top level folder you just opened (you can copy it from Windows Explorer)
 3) Type 'npm test' to run the tests.  Hopefully they all pass!  See the node commands section about running the tests with the coverage turned on.
 
+### Step 4 - Push your changes into your repository
+
+1) Open a new terminal by going to Terminal -> New Terminal.
+2) Check that you have your git credentials set
+   `git config --list` is the command
+3) Set up your username and email if it is missing from the git config list
+   `git config --global user.name "Your Name"`
+   `git config --global user.email "your.email@email.com"`
+4) Commit your local changes on your machine
+   `git add .` Adds all local changes for committing
+   `git commit -m"enter message here"` Commits the changes so they can be pushed under a message you set
+5) Push your changes to your GitHub remote repository
+   `git push origin HEAD` 
+
 ## Node commands
 ### `npm start`  
 Runs the app in the development mode.  Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
