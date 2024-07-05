@@ -1,16 +1,26 @@
 import React from 'react';
 
-function DataItem({product}) {
-
-  return (
-            <div>
-                 <img src={`../img/${product.pic}`} alt="product pic" />
-                 <p>Name: {product.name}</p>
-                 <p>Size: {product.size}</p>
-                 <p>Department: {product.department}</p>
-                 <p>Proce: {product.price}</p>
-            </div>
-        );
+function capitalise(string) {
+  return string.charAt(0).toUpperCase() + string.slice(1);
 }
 
-export default DataItem; 
+
+function DataItem({product, value}) {
+      return (<div>
+            <div className="column">
+                  <div><img align="left" src={`../img/${product.pic}`} alt="product pic" width="250" height="150" border="1"/></div>
+
+                <div style={{"min-width": 210, "margin-left": 5}}>
+                    <div>Name: {capitalise(product.name)}</div>
+                    <div>Size: {capitalise(product.size)}</div>
+                    <div>Department: {capitalise(product.department)}</div>
+                </div> 
+
+                <div style={{"margin-left": 5, "margin-right": 200}}>Price: £{product.price.toFixed(2)}</div>
+            </div>
+        </div>)
+};
+
+
+
+export default DataItem;
